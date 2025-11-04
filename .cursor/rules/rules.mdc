@@ -1,0 +1,26 @@
+---
+alwaysApply: true
+# 🧠 Cursor Rules for DacarsoftFinanceBot Project
+
+rules:
+  - All bot messages must be in Spanish with emojis where appropriate.
+  - Use English for comments, function names, and docstrings.
+  - Store the bot token and Google credentials in environment variables or config.py.
+  - Folder structure must be:
+      bot/ → Telegram handlers and parsers
+      services/ → Google Sheets integration, config, utilities
+      domain/ → Models and validators
+      main.py → Entry point
+  - Avoid hardcoding strings or categories.
+  - Use PEP8 naming conventions and async/await style.
+  - Keep code modular and educational, as the project will be shared on DacarSoft’s YouTube channel.
+  - When generating new code, include a short summary at the top explaining its purpose.
+  - Use f-strings for all dynamic text.
+  - Always validate parsed data before saving it to Google Sheets.
+
+metadata:
+  project: DacarsoftFinanceBot
+  author: David Sneider Cardona Cardenas
+  purpose: Educational Telegram bot for personal finance automation (DacarSoft YouTube)
+
+
